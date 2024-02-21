@@ -16,8 +16,9 @@ namespace QLSV
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-           // Application.Run(new Login_From());
+            // Application.Run(new Login_From());
             Login_From flogin = new Login_From();
+
             if (flogin.ShowDialog() == DialogResult.OK)
             {
                 Application.Run(new MainForm());
@@ -25,7 +26,7 @@ namespace QLSV
             else
             {
                 Application.Exit();
-            }    
+            }
         }
     }
 }

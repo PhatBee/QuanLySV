@@ -37,13 +37,15 @@
             this.TextBoxPassword = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.bt_Register = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // bt_Cancel
             // 
+            this.bt_Cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.bt_Cancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_Cancel.Location = new System.Drawing.Point(114, 250);
+            this.bt_Cancel.Location = new System.Drawing.Point(183, 250);
             this.bt_Cancel.Name = "bt_Cancel";
             this.bt_Cancel.Size = new System.Drawing.Size(94, 48);
             this.bt_Cancel.TabIndex = 0;
@@ -54,7 +56,7 @@
             // bt_logIn
             // 
             this.bt_logIn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bt_logIn.Location = new System.Drawing.Point(273, 250);
+            this.bt_logIn.Location = new System.Drawing.Point(323, 250);
             this.bt_logIn.Name = "bt_logIn";
             this.bt_logIn.Size = new System.Drawing.Size(87, 48);
             this.bt_logIn.TabIndex = 1;
@@ -123,12 +125,27 @@
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
+            // bt_Register
+            // 
+            this.bt_Register.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.bt_Register.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_Register.Location = new System.Drawing.Point(43, 250);
+            this.bt_Register.Name = "bt_Register";
+            this.bt_Register.Size = new System.Drawing.Size(94, 48);
+            this.bt_Register.TabIndex = 8;
+            this.bt_Register.Text = "Register";
+            this.bt_Register.UseVisualStyleBackColor = true;
+            this.bt_Register.Click += new System.EventHandler(this.bt_Register_Click);
+            // 
             // Login_From
             // 
+            this.AcceptButton = this.bt_logIn;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.CancelButton = this.bt_Cancel;
             this.ClientSize = new System.Drawing.Size(464, 360);
+            this.Controls.Add(this.bt_Register);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.TextBoxPassword);
@@ -156,5 +173,6 @@
         private System.Windows.Forms.TextBox TextBoxPassword;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button bt_Register;
     }
 }

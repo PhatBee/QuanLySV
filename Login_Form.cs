@@ -54,5 +54,11 @@ namespace QLSV
         {
             pictureBox1.Image = Image.FromFile("C:\\Users\\ADMIN\\Pictures\\Picture1.png");
         }
+
+        private void bt_Register_Click(object sender, EventArgs e)
+        {
+            Form frm = new Register_Form();
+            frm.Show();  
+        }
     }
 }

@@ -188,7 +188,7 @@ namespace QLSV
             // dateTimePicker1
             // 
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker1.Location = new System.Drawing.Point(140, 134);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(228, 20);
@@ -243,6 +243,7 @@ namespace QLSV
             // bt_cancel
             // 
             this.bt_cancel.BackColor = System.Drawing.Color.Red;
+            this.bt_cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.bt_cancel.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.bt_cancel.Location = new System.Drawing.Point(37, 470);
             this.bt_cancel.Name = "bt_cancel";
@@ -277,7 +278,9 @@ namespace QLSV
             // 
             // AddStudentForm
             // 
+            this.AcceptButton = this.bt_add;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.CancelButton = this.bt_cancel;
             this.ClientSize = new System.Drawing.Size(465, 526);
             this.Controls.Add(this.bt_browseImage);
             this.Controls.Add(this.bt_add);
@@ -303,6 +306,7 @@ namespace QLSV
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "AddStudentForm";
             this.Text = "AddStudentForm-22110394";
+            this.Load += new System.EventHandler(this.AddStudentForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PictureBoxStudentImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -386,6 +390,11 @@ namespace QLSV
         }
 
         private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddStudentForm_Load(object sender, EventArgs e)
         {
 
         }

@@ -63,7 +63,6 @@
             this.manageStudentFormToolStripMenuItem,
             this.printToolStripMenuItem});
             this.studentToolStripMenuItem.Name = "studentToolStripMenuItem";
-            this.studentToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
             this.studentToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.studentToolStripMenuItem.Text = "Student";
             // 
@@ -71,7 +70,8 @@
             // 
             this.addNewStudentToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.addNewStudentToolStripMenuItem.Name = "addNewStudentToolStripMenuItem";
-            this.addNewStudentToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.addNewStudentToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
+            this.addNewStudentToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.addNewStudentToolStripMenuItem.Text = "Add New Student";
             this.addNewStudentToolStripMenuItem.Click += new System.EventHandler(this.addNewStudentToolStripMenuItem_Click);
             // 
@@ -79,35 +79,37 @@
             // 
             this.studentsListToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.studentsListToolStripMenuItem.Name = "studentsListToolStripMenuItem";
-            this.studentsListToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.studentsListToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.L)));
+            this.studentsListToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.studentsListToolStripMenuItem.Text = "Students List";
+            this.studentsListToolStripMenuItem.Click += new System.EventHandler(this.studentsListToolStripMenuItem_Click);
             // 
             // staticsToolStripMenuItem
             // 
             this.staticsToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.staticsToolStripMenuItem.Name = "staticsToolStripMenuItem";
-            this.staticsToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.staticsToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.staticsToolStripMenuItem.Text = "Statics";
             // 
             // editRemoveToolStripMenuItem
             // 
             this.editRemoveToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.editRemoveToolStripMenuItem.Name = "editRemoveToolStripMenuItem";
-            this.editRemoveToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.editRemoveToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.editRemoveToolStripMenuItem.Text = "Edit / Remove";
             // 
             // manageStudentFormToolStripMenuItem
             // 
             this.manageStudentFormToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.manageStudentFormToolStripMenuItem.Name = "manageStudentFormToolStripMenuItem";
-            this.manageStudentFormToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.manageStudentFormToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.manageStudentFormToolStripMenuItem.Text = "Manage Student Form";
             // 
             // printToolStripMenuItem
             // 
             this.printToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.printToolStripMenuItem.Name = "printToolStripMenuItem";
-            this.printToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.printToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
             this.printToolStripMenuItem.Text = "Print";
             // 
             // courseToolStripMenuItem

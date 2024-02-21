@@ -30,5 +30,11 @@ namespace QLSV
         {
 
         }
+
+        private void studentsListToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form frm = new StudentListForm();
+            frm.Show();
+        }
     }
 }
