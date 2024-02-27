@@ -18,11 +18,12 @@ namespace QLSV
             Application.SetCompatibleTextRenderingDefault(false);
             // Application.Run(new Login_From());
             Login_From flogin = new Login_From();
-
+            
             if (flogin.ShowDialog() == DialogResult.OK)
             {
                 Application.Run(new MainForm());
             }
+           
             else
             {
                 Application.Exit();

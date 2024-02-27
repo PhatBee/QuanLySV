@@ -36,8 +36,21 @@ namespace QLSV
 
             if ((table.Rows.Count > 0))
             {
-/*                MessageBox.Show("Ok, next time will be go to Main menu of App");
-*/                this.DialogResult = DialogResult.OK;
+                /*                MessageBox.Show("Ok, next time will be go to Main menu of App");
+                */
+                this.DialogResult = DialogResult.OK;
+            }
+            else if (TextBoxUsername.Text == "")
+            {
+                errorProvider1.SetError(TextBoxUsername, "Username is required");
+                MessageBox.Show("Please input Username", "Login Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            else if (TextBoxPassword.Text == "")
+            {
+                errorProvider1.SetError(TextBoxPassword, "Password is required");
+                MessageBox.Show("Please input Password", "Login Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
             else
             {
@@ -58,7 +71,8 @@ namespace QLSV
         private void bt_Register_Click(object sender, EventArgs e)
         {
             Form frm = new Register_Form();
-            frm.Show();  
+            frm.ShowDialog();
+            
         }
     }
 }

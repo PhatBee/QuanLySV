@@ -49,7 +49,7 @@
             this.scoreToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(443, 29);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -62,66 +62,69 @@
             this.editRemoveToolStripMenuItem,
             this.manageStudentFormToolStripMenuItem,
             this.printToolStripMenuItem});
+            this.studentToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.studentToolStripMenuItem.Name = "studentToolStripMenuItem";
-            this.studentToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
+            this.studentToolStripMenuItem.Size = new System.Drawing.Size(75, 25);
             this.studentToolStripMenuItem.Text = "Student";
             // 
             // addNewStudentToolStripMenuItem
             // 
-            this.addNewStudentToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.addNewStudentToolStripMenuItem.BackColor = System.Drawing.Color.White;
             this.addNewStudentToolStripMenuItem.Name = "addNewStudentToolStripMenuItem";
             this.addNewStudentToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
-            this.addNewStudentToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
+            this.addNewStudentToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
             this.addNewStudentToolStripMenuItem.Text = "Add New Student";
             this.addNewStudentToolStripMenuItem.Click += new System.EventHandler(this.addNewStudentToolStripMenuItem_Click);
             // 
             // studentsListToolStripMenuItem
             // 
-            this.studentsListToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.studentsListToolStripMenuItem.BackColor = System.Drawing.Color.White;
             this.studentsListToolStripMenuItem.Name = "studentsListToolStripMenuItem";
             this.studentsListToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.L)));
-            this.studentsListToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
+            this.studentsListToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
             this.studentsListToolStripMenuItem.Text = "Students List";
             this.studentsListToolStripMenuItem.Click += new System.EventHandler(this.studentsListToolStripMenuItem_Click);
             // 
             // staticsToolStripMenuItem
             // 
-            this.staticsToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.staticsToolStripMenuItem.BackColor = System.Drawing.Color.White;
             this.staticsToolStripMenuItem.Name = "staticsToolStripMenuItem";
-            this.staticsToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
+            this.staticsToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
             this.staticsToolStripMenuItem.Text = "Statics";
             // 
             // editRemoveToolStripMenuItem
             // 
-            this.editRemoveToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.editRemoveToolStripMenuItem.BackColor = System.Drawing.Color.White;
             this.editRemoveToolStripMenuItem.Name = "editRemoveToolStripMenuItem";
-            this.editRemoveToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
+            this.editRemoveToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
             this.editRemoveToolStripMenuItem.Text = "Edit / Remove";
             // 
             // manageStudentFormToolStripMenuItem
             // 
-            this.manageStudentFormToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.manageStudentFormToolStripMenuItem.BackColor = System.Drawing.Color.White;
             this.manageStudentFormToolStripMenuItem.Name = "manageStudentFormToolStripMenuItem";
-            this.manageStudentFormToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
+            this.manageStudentFormToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
             this.manageStudentFormToolStripMenuItem.Text = "Manage Student Form";
             // 
             // printToolStripMenuItem
             // 
-            this.printToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.printToolStripMenuItem.BackColor = System.Drawing.Color.White;
             this.printToolStripMenuItem.Name = "printToolStripMenuItem";
-            this.printToolStripMenuItem.Size = new System.Drawing.Size(209, 22);
+            this.printToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
             this.printToolStripMenuItem.Text = "Print";
             // 
             // courseToolStripMenuItem
             // 
+            this.courseToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.courseToolStripMenuItem.Name = "courseToolStripMenuItem";
-            this.courseToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.courseToolStripMenuItem.Size = new System.Drawing.Size(71, 25);
             this.courseToolStripMenuItem.Text = "Course";
             // 
             // scoreToolStripMenuItem
             // 
+            this.scoreToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.scoreToolStripMenuItem.Name = "scoreToolStripMenuItem";
-            this.scoreToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
+            this.scoreToolStripMenuItem.Size = new System.Drawing.Size(61, 25);
             this.scoreToolStripMenuItem.Text = "Score";
             // 
             // MainForm
@@ -129,7 +132,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(443, 354);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MainForm";
