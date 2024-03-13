@@ -71,127 +71,127 @@ namespace QLSV
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Location = new System.Drawing.Point(13, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 20);
+            this.label1.Size = new System.Drawing.Size(89, 19);
             this.label1.TabIndex = 0;
             this.label1.Text = "Student ID:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Location = new System.Drawing.Point(13, 72);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(106, 20);
+            this.label2.Size = new System.Drawing.Size(97, 19);
             this.label2.TabIndex = 1;
             this.label2.Text = "First Name: ";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label3.Location = new System.Drawing.Point(13, 122);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 20);
+            this.label3.Size = new System.Drawing.Size(94, 19);
             this.label3.TabIndex = 2;
             this.label3.Text = "Last Name:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label4.Location = new System.Drawing.Point(13, 176);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(91, 20);
+            this.label4.Size = new System.Drawing.Size(81, 19);
             this.label4.TabIndex = 3;
             this.label4.Text = "BirthDate:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label5.Location = new System.Drawing.Point(13, 233);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(79, 20);
+            this.label5.Size = new System.Drawing.Size(76, 19);
             this.label5.TabIndex = 4;
             this.label5.Text = "Gender: ";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label6.Location = new System.Drawing.Point(13, 290);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(65, 20);
+            this.label6.Size = new System.Drawing.Size(62, 19);
             this.label6.TabIndex = 5;
             this.label6.Text = "Phone:";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label7.Location = new System.Drawing.Point(13, 368);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(80, 20);
+            this.label7.Size = new System.Drawing.Size(74, 19);
             this.label7.TabIndex = 6;
             this.label7.Text = "Address:";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label8.Location = new System.Drawing.Point(13, 501);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(65, 20);
+            this.label8.Size = new System.Drawing.Size(61, 19);
             this.label8.TabIndex = 7;
             this.label8.Text = "Picture";
             // 
             // txtStudentID
             // 
-            this.txtStudentID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtStudentID.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtStudentID.Location = new System.Drawing.Point(156, 21);
             this.txtStudentID.Name = "txtStudentID";
-            this.txtStudentID.Size = new System.Drawing.Size(341, 26);
+            this.txtStudentID.Size = new System.Drawing.Size(341, 27);
             this.txtStudentID.TabIndex = 8;
             // 
             // TextBoxFname
             // 
-            this.TextBoxFname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextBoxFname.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TextBoxFname.Location = new System.Drawing.Point(156, 70);
             this.TextBoxFname.Name = "TextBoxFname";
-            this.TextBoxFname.Size = new System.Drawing.Size(341, 26);
+            this.TextBoxFname.Size = new System.Drawing.Size(341, 27);
             this.TextBoxFname.TabIndex = 9;
             // 
             // TextBoxLname
             // 
-            this.TextBoxLname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextBoxLname.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TextBoxLname.Location = new System.Drawing.Point(156, 120);
             this.TextBoxLname.Name = "TextBoxLname";
-            this.TextBoxLname.Size = new System.Drawing.Size(341, 26);
+            this.TextBoxLname.Size = new System.Drawing.Size(341, 27);
             this.TextBoxLname.TabIndex = 10;
             // 
             // TextBoxPhone
             // 
             this.TextBoxPhone.AcceptsReturn = true;
-            this.TextBoxPhone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextBoxPhone.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TextBoxPhone.Location = new System.Drawing.Point(156, 287);
             this.TextBoxPhone.Name = "TextBoxPhone";
-            this.TextBoxPhone.Size = new System.Drawing.Size(341, 26);
+            this.TextBoxPhone.Size = new System.Drawing.Size(341, 27);
             this.TextBoxPhone.TabIndex = 11;
             // 
             // TextBoxAddress
             // 
-            this.TextBoxAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TextBoxAddress.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TextBoxAddress.Location = new System.Drawing.Point(156, 351);
             this.TextBoxAddress.Multiline = true;
             this.TextBoxAddress.Name = "TextBoxAddress";
@@ -201,11 +201,11 @@ namespace QLSV
             // dateTimePicker1
             // 
             this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Matura MT Script Capitals", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker1.Location = new System.Drawing.Point(156, 176);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(341, 26);
+            this.dateTimePicker1.Size = new System.Drawing.Size(341, 27);
             this.dateTimePicker1.TabIndex = 13;
             this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
@@ -221,10 +221,11 @@ namespace QLSV
             // radioButton_Male
             // 
             this.radioButton_Male.AutoSize = true;
+            this.radioButton_Male.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton_Male.ForeColor = System.Drawing.Color.Black;
             this.radioButton_Male.Location = new System.Drawing.Point(18, 23);
             this.radioButton_Male.Name = "radioButton_Male";
-            this.radioButton_Male.Size = new System.Drawing.Size(65, 24);
+            this.radioButton_Male.Size = new System.Drawing.Size(66, 23);
             this.radioButton_Male.TabIndex = 15;
             this.radioButton_Male.TabStop = true;
             this.radioButton_Male.Text = "Male";
@@ -233,10 +234,11 @@ namespace QLSV
             // radioButton_Female
             // 
             this.radioButton_Female.AutoSize = true;
+            this.radioButton_Female.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton_Female.ForeColor = System.Drawing.Color.Black;
             this.radioButton_Female.Location = new System.Drawing.Point(142, 23);
             this.radioButton_Female.Name = "radioButton_Female";
-            this.radioButton_Female.Size = new System.Drawing.Size(86, 24);
+            this.radioButton_Female.Size = new System.Drawing.Size(86, 23);
             this.radioButton_Female.TabIndex = 16;
             this.radioButton_Female.TabStop = true;
             this.radioButton_Female.Text = "Female";
@@ -245,10 +247,11 @@ namespace QLSV
             // radioButton_Other
             // 
             this.radioButton_Other.AutoSize = true;
+            this.radioButton_Other.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton_Other.ForeColor = System.Drawing.Color.Black;
             this.radioButton_Other.Location = new System.Drawing.Point(287, 23);
             this.radioButton_Other.Name = "radioButton_Other";
-            this.radioButton_Other.Size = new System.Drawing.Size(72, 24);
+            this.radioButton_Other.Size = new System.Drawing.Size(69, 23);
             this.radioButton_Other.TabIndex = 17;
             this.radioButton_Other.TabStop = true;
             this.radioButton_Other.Text = "Other";
@@ -258,7 +261,7 @@ namespace QLSV
             // 
             this.bt_cancel.BackColor = System.Drawing.Color.Bisque;
             this.bt_cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.bt_cancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_cancel.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_cancel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.bt_cancel.Location = new System.Drawing.Point(60, 641);
             this.bt_cancel.Name = "bt_cancel";
@@ -271,7 +274,7 @@ namespace QLSV
             // bt_add
             // 
             this.bt_add.BackColor = System.Drawing.Color.GreenYellow;
-            this.bt_add.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_add.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_add.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.bt_add.Location = new System.Drawing.Point(319, 641);
             this.bt_add.Name = "bt_add";
@@ -283,7 +286,7 @@ namespace QLSV
             // 
             // bt_browseImage
             // 
-            this.bt_browseImage.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bt_browseImage.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bt_browseImage.Location = new System.Drawing.Point(156, 582);
             this.bt_browseImage.Name = "bt_browseImage";
             this.bt_browseImage.Size = new System.Drawing.Size(341, 33);
@@ -298,7 +301,7 @@ namespace QLSV
             this.groupBox1.Controls.Add(this.radioButton_Female);
             this.groupBox1.Controls.Add(this.radioButton_Other);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(138, 208);
+            this.groupBox1.Location = new System.Drawing.Point(138, 209);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(379, 69);
             this.groupBox1.TabIndex = 21;
@@ -329,7 +332,7 @@ namespace QLSV
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "AddStudentForm";
             this.Text = "AddStudentForm-22110394";
             this.Load += new System.EventHandler(this.AddStudentForm_Load);
@@ -349,17 +352,24 @@ namespace QLSV
         private void bt_add_Click(object sender, System.EventArgs e)
         {
 
+            if (txtStudentID.Text == "")
+            {
+                MessageBox.Show("Please input Student ID", "Student ID", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
+            else if (!Regex.IsMatch(txtStudentID.Text, "^[0-9]+$"))
+            {
+                MessageBox.Show("Student ID must be contain only number", "Invalid Student ID", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }   
+
             MY_DB db = new MY_DB();
 
             SqlDataAdapter adapter = new SqlDataAdapter();
 
             DataTable table = new DataTable();
 
-            if (!int.TryParse(txtStudentID.Text, out _))
-            {
-                MessageBox.Show("Student ID must be a number", "Invaid ID", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            
-            }
+            SqlCommand command =  new SqlCommand();
             
             STUDENT student = new STUDENT();
             int id = Convert.ToInt32(txtStudentID.Text);
@@ -384,78 +394,100 @@ namespace QLSV
             int born_year = dateTimePicker1.Value.Year;
             int this_year = DateTime.Now.Year;
 
-            // Kiểm tra trùng ID
-            SqlCommand command = new SqlCommand("SELECT * FROM std WHERE id = @id", db.getConnection);
-            command.Parameters.Add("@id", SqlDbType.VarChar).Value = txtStudentID.Text;
-            adapter.SelectCommand = command;
-            adapter.Fill(table);
-            if ((table.Rows.Count > 0))
-            {
-                MessageBox.Show("Student ID is already exist, Please Check Student ID", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            // Kiểm tra rỗng
-            else if (TextBoxFname.Text == "")
+            
+            // Kiểm tra first name
+            if (TextBoxFname.Text == "")
             {
                 MessageBox.Show("Please input First Name", "First Name", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            else if (TextBoxLname.Text == "")
-            {
-                MessageBox.Show("Please input Last Name", "Last Name", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else if (!radioButton_Female.Checked && !radioButton_Male.Checked && !radioButton_Other.Checked)
-            {
-                MessageBox.Show("Please select Gender", "Gender", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else if (TextBoxPhone.Text == "")
-            {
-                MessageBox.Show("Please input Phone Number", "Phone Number", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else if (TextBoxAddress.Text == "")
-            {
-                MessageBox.Show("Please input Address", "Address", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            // Kiểm tra kiểu dữ liệu
             else if (!Regex.IsMatch(TextBoxFname.Text, "^[a-zA-Z\\s]+$")) // Kiểm tra dữ liệu (a-z, A-Z, khoảng trắng)
             {
                 MessageBox.Show("First Name must be contain only letters and space", "Invalid First Name", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            // Kiểm tra last name
+            else if (TextBoxLname.Text == "")
+            {
+                MessageBox.Show("Please input Last Name", "Last Name", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else if (!Regex.IsMatch(TextBoxLname.Text, "^[a-zA-Z\\s]+$")) // Kiểm tra dữ liệu (a-z, A-Z, khoảng trắng)
             {
                 MessageBox.Show("Last Name must be contain only letters and space", "Invalid Last Name", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            else if (!Regex.IsMatch(TextBoxPhone.Text, "^[0-9]+$")) // Kiểm tra kiểu dữ liệu từ 0 - 9
-            {
-                MessageBox.Show("Phone number must be contain only numbers", "Invalid Phone Number", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            // Kiểm tra độ dài sdt
-            else if (TextBoxPhone.Text.Trim().Length != 10)
-            {
-                MessageBox.Show("A valid phone number has 10 digits", "Invalid Phone Number", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            // Kiểm tra độ tuổi từ 18 - 100
+            // Kiểm tra tuổi
             else if ((this_year - born_year) < 18 || (this_year - born_year) > 100)
             {
                 MessageBox.Show("The Student Age must be between 18 and 100 year", "Invalid Birth Date", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            // bonus
-            else if (verif())
+            // Kiểm tra gender
+            else if (!radioButton_Female.Checked && !radioButton_Male.Checked && !radioButton_Other.Checked)
             {
-                PictureBoxStudentImage.Image.Save(pic, PictureBoxStudentImage.Image.RawFormat);
-                if (student.insertStudent(id, fname, lname, birthdaytime, gender, phone, address, pic)) 
-                {
-                    MessageBox.Show("New Student Added", "Add Student", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
-                else
-                {
-                    MessageBox.Show("Error", "Add Student", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                MessageBox.Show("Please select Gender", "Gender", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            // Kiểm tra sdt
+            else if (TextBoxPhone.Text == "")
+            {
+                MessageBox.Show("Please input Phone Number", "Phone Number", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else if (!Regex.IsMatch(TextBoxPhone.Text, "^[0-9]+$")) // Kiểm tra kiểu dữ liệu từ 0 - 9
+            {
+                MessageBox.Show("Phone number must be contain only numbers", "Invalid Phone Number", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
-                
-               MessageBox.Show("Empty Fields", "Add Student", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                command = new SqlCommand("SELECT * FROM std WHERE phone = @phone", db.getConnection);
+                command.Parameters.Add("@phone", SqlDbType.VarChar).Value = TextBoxPhone.Text;
+                adapter.SelectCommand = command;
+                adapter.Fill(table);
+                if ((table.Rows.Count > 0))
+                {
+                    MessageBox.Show("Phone number is already exist, Please Phone number", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                // Kiểm tra địa chỉ
+                else if (TextBoxAddress.Text == "")
+                {
+                    MessageBox.Show("Please input Address", "Address", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else if (TextBoxPhone.Text.Trim().Length != 10)
+                {
+                    MessageBox.Show("A valid phone number has 10 digits", "Invalid Phone Number", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else if (PictureBoxStudentImage.Image == null)
+                {
+                    MessageBox.Show("Please add Image", "Invalid Image", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    command = new SqlCommand("SELECT * FROM std WHERE id = @id", db.getConnection);
+                    command.Parameters.Add("@id", SqlDbType.VarChar).Value = txtStudentID.Text;
+                    adapter.SelectCommand = command;
+                    adapter.Fill(table);
+                    if ((table.Rows.Count > 0))
+                    {
+                        MessageBox.Show("Student ID is already exist, Please Check Student ID again", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        return;
+                    }
+                }
+                // bonus
+                if (verif())
+                {
+                    PictureBoxStudentImage.Image.Save(pic, PictureBoxStudentImage.Image.RawFormat);
+                    if (student.insertStudent(id, fname, lname, birthdaytime, gender, phone, address, pic))
+                    {
+                        MessageBox.Show("New Student Added", "Add Student", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error", "Add Student", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                else
+                {
 
+                    MessageBox.Show("Unknown error", "Add Student", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
+                }
             }
+            
         }
 
 

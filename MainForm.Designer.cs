@@ -38,6 +38,10 @@
             this.printToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.courseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.scoreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.adminToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.requestAccountToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.accountListToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.manageAccountToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,7 +50,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.studentToolStripMenuItem,
             this.courseToolStripMenuItem,
-            this.scoreToolStripMenuItem});
+            this.scoreToolStripMenuItem,
+            this.adminToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(443, 29);
@@ -98,6 +103,7 @@
             this.editRemoveToolStripMenuItem.Name = "editRemoveToolStripMenuItem";
             this.editRemoveToolStripMenuItem.Size = new System.Drawing.Size(257, 26);
             this.editRemoveToolStripMenuItem.Text = "Edit / Remove";
+            this.editRemoveToolStripMenuItem.Click += new System.EventHandler(this.editRemoveToolStripMenuItem_Click);
             // 
             // manageStudentFormToolStripMenuItem
             // 
@@ -126,6 +132,38 @@
             this.scoreToolStripMenuItem.Name = "scoreToolStripMenuItem";
             this.scoreToolStripMenuItem.Size = new System.Drawing.Size(61, 25);
             this.scoreToolStripMenuItem.Text = "Score";
+            // 
+            // adminToolStripMenuItem
+            // 
+            this.adminToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.requestAccountToolStripMenuItem,
+            this.accountListToolStripMenuItem,
+            this.manageAccountToolStripMenuItem});
+            this.adminToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.adminToolStripMenuItem.Name = "adminToolStripMenuItem";
+            this.adminToolStripMenuItem.Size = new System.Drawing.Size(68, 25);
+            this.adminToolStripMenuItem.Text = "Admin";
+            // 
+            // requestAccountToolStripMenuItem
+            // 
+            this.requestAccountToolStripMenuItem.Name = "requestAccountToolStripMenuItem";
+            this.requestAccountToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
+            this.requestAccountToolStripMenuItem.Text = "Request Account";
+            this.requestAccountToolStripMenuItem.Click += new System.EventHandler(this.requestAccountToolStripMenuItem_Click);
+            // 
+            // accountListToolStripMenuItem
+            // 
+            this.accountListToolStripMenuItem.Name = "accountListToolStripMenuItem";
+            this.accountListToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
+            this.accountListToolStripMenuItem.Text = "Account List";
+            this.accountListToolStripMenuItem.Click += new System.EventHandler(this.manageAccountToolStripMenuItem_Click);
+            // 
+            // manageAccountToolStripMenuItem
+            // 
+            this.manageAccountToolStripMenuItem.Name = "manageAccountToolStripMenuItem";
+            this.manageAccountToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
+            this.manageAccountToolStripMenuItem.Text = "Manage Account";
+            this.manageAccountToolStripMenuItem.Click += new System.EventHandler(this.manageAccountToolStripMenuItem_Click_1);
             // 
             // MainForm
             // 
@@ -157,6 +195,10 @@
         private System.Windows.Forms.ToolStripMenuItem editRemoveToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem manageStudentFormToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem printToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem adminToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem requestAccountToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem accountListToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem manageAccountToolStripMenuItem;
     }
 }
 

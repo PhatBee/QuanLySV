@@ -169,6 +169,18 @@
     <Compile Include="Login_Form.Designer.cs">
       <DependentUpon>Login_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdminAccountListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminAccountListForm.Designer.cs">
+      <DependentUpon>AdminAccountListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageAccountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageAccountForm.Designer.cs">
+      <DependentUpon>ManageAccountForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="myDBDataSet.cs">
       <DependentUpon>myDBDataSet.xsd</DependentUpon>
     </Compile>
@@ -182,11 +194,32 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>myDBDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="myDBDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>myDBDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="myDBDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>myDBDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="myDBDatasetLogin.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>myDBDatasetLogin.xsd</DependentUpon>
+    </Compile>
     <Compile Include="MY_DB.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Register_Form.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RequestAccountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RequestAccountForm.Designer.cs">
+      <DependentUpon>RequestAccountForm.cs</DependentUpon>
     </Compile>
     <Compile Include="stTable.designer.cs">
       <AutoGen>True</AutoGen>
@@ -215,6 +248,12 @@
     <EmbeddedResource Include="Login_Form.resx">
       <DependentUpon>Login_Form.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AdminAccountListForm.resx">
+      <DependentUpon>AdminAccountListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageAccountForm.resx">
+      <DependentUpon>ManageAccountForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -227,6 +266,9 @@
     </Compile>
     <EmbeddedResource Include="Register_Form.resx">
       <DependentUpon>Register_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RequestAccountForm.resx">
+      <DependentUpon>RequestAccountForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="StudentListForm.resx">
       <DependentUpon>StudentListForm.cs</DependentUpon>
@@ -258,6 +300,39 @@
     </None>
     <None Include="myDBDataSet1.xss">
       <DependentUpon>myDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="myDBDataSet2.xsc">
+      <DependentUpon>myDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="myDBDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>myDBDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="myDBDataSet2.xss">
+      <DependentUpon>myDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="myDBDataSet3.xsc">
+      <DependentUpon>myDBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="myDBDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>myDBDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="myDBDataSet3.xss">
+      <DependentUpon>myDBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="myDBDatasetLogin.xsc">
+      <DependentUpon>myDBDatasetLogin.xsd</DependentUpon>
+    </None>
+    <None Include="myDBDatasetLogin.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>myDBDatasetLogin.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="myDBDatasetLogin.xss">
+      <DependentUpon>myDBDatasetLogin.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
